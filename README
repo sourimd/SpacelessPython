@@ -1,10 +1,7 @@
-Name: Sourim Das
-Email: sourimd@clemson.edu
-Project No. : 6
-Project Description: Spyceless Python Phase 2
-Project Specs Implemented: Function Calls, Decision Structure, Parameter List
-Project Specs Not Implemented: Recursion
+In Python code blocks are delimited by indentation which some people consider a negative aspect of the language . In this project I have tried to come up with a different version of the language which does not require indentation to separate one code block from another. Rather it uses keywords like end, endif to demarcate end of a code construct. The features that I have implemented are Function Calls, Parameter List, Decision Structures, Mathematical Operations, Logical Operations and Print Statements.
 
-Extras:
+Instructions for Executing the Code:-
 
-I am not able to implement recursion. Sorry about that. See test19.py test case. That was the best I could do.
+As a pre-requisite you will need to install Flex And Bison.
+Once you are done with that run "make" command to compile the code.
+And then do "make test" to execute the python test-case files.
